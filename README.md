@@ -9,15 +9,6 @@ It includes:
 
 ---
 
-## 📂 Project Structure
-
-.
-├── optimized_jso.py # Improved JSO using Levy flights
-├── jellysearch_optimization.py # Original JSO logic
-├── results and benchmarks/ # Standard test functions (Sphere, Ackley, etc.) # / # Benchmark results (CEC 2014–2022)
-└── README.md
-
-
 ## 🚀 Demo: Run the Optimizer
 
 Run the main file:
