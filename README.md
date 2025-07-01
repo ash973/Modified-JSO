@@ -11,17 +11,22 @@ It includes:
 
 ## 🚀 Demo: Run the Optimizer
 
-Run the main file:
+To test the optimizer on a 2D function (default: Rastrigin), run:
 
 ```bash
 python main.py
-The script will:
+```
 
-Optimize the Rastrigin function
+This will:
+- 🧮 Optimize the **Rastrigin** function in 2D
+- 📈 Display the **convergence curve** (fitness vs. iterations)
+- 🗺️ Visualize the **search path** of jellyfish over the function surface
 
-Display convergence curve
+🔄 You can switch the objective function to `Sphere`, `Rosenbrock`, or others by editing the `objective_function` line in `main.py`.
 
-Plot 2D search history
+> CLI support for selecting functions and dimensions can be added in future versions.
+
+---
 
 🔬 Benchmark Functions Supported
 ✅ Classic Test Functions (for quick testing)
